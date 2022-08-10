@@ -3,7 +3,7 @@ let router = require('express').Router();
 router.get('/', (req, res) => {
     res.send(`
   <h1>Welcome to Api-Questions</h1>
-  <a href="https://github.com/isc-joserodriguez/api-todo">Repo</a>
+  <a href="https://github.com/isc-joserodriguez/api-questions">Repo</a>
   `);
 });
 
